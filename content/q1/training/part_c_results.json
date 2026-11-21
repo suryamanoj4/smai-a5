@@ -1,0 +1,26 @@
+{
+    "seed": 36,
+    "architecture": "CartoonCNN",
+    "input_shape": [
+        3,
+        64,
+        64
+    ],
+    "filters": [
+        32,
+        64,
+        128
+    ],
+    "num_blocks": 3,
+    "num_classes": 6,
+    "dropout_rate": 0.3,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "max_epochs": 30,
+    "best_epoch": 18,
+    "best_validation_accuracy": 0.8809917355371901,
+    "total_parameters": 94246,
+    "model_size_mb": 0.3612518310546875
+}

@@ -1,0 +1,15 @@
+{
+  "baseline_name": "HOG + LinearSVC",
+  "baseline_val_accuracy": 0.543801652892562,
+  "baseline_test_accuracy": 0.44574780058651026,
+  "baseline_test_macro_f1": 0.4471392433392112,
+  "baseline_train_time_sec": 366.8048312664032,
+  "cnn_test_accuracy": 0.9560117302052786,
+  "cnn_test_macro_f1": 0.9567107946361427,
+  "mcnemar_b": 180,
+  "mcnemar_c": 6,
+  "mcnemar_statistic": 160.90860215053763,
+  "mcnemar_p_value": 0.0,
+  "bootstrap_95_ci_low": 0.4545454545454546,
+  "bootstrap_95_ci_high": 0.5689149560117301
+}

@@ -1,0 +1,30 @@
+{
+  "selected_run_id": "search_003b5f206b",
+  "selected_from_phase": "search",
+  "config": {
+    "seed": 36,
+    "filters": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "num_classes": 6,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "momentum": 0.9,
+    "dropout_rate": 0.3,
+    "batch_size": 64,
+    "use_batchnorm": true,
+    "use_augmentation": true,
+    "image_size": [
+      64,
+      64
+    ]
+  },
+  "retrained_val_accuracy": 0.9289256198347108,
+  "test_accuracy": 0.9560117302052786,
+  "test_macro_f1": 0.9567107946361427,
+  "test_evaluated_once": true
+}

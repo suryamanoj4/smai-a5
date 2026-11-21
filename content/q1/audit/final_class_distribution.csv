@@ -1,0 +1,13 @@
+split,class,final_images
+train,donald,633
+train,mickey,715
+train,minion,679
+train,olaf,590
+train,pooh,738
+train,pumba,675
+test,donald,86
+test,mickey,69
+test,minion,51
+test,olaf,56
+test,pooh,50
+test,pumba,29

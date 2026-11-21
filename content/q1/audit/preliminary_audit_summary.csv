@@ -1,0 +1,9 @@
+Metric,Value
+Total files,4667
+Valid images,4667
+Strictly readable images,4666
+Recoverable truncated images,1
+Corrupted files,0
+Non-image files,0
+Files hashed,4666
+Near-duplicate candidate pairs,310

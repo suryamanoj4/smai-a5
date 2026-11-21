@@ -1,0 +1,35 @@
+{
+    "seed": 36,
+    "classes": [
+        "donald",
+        "mickey",
+        "minion",
+        "olaf",
+        "pooh",
+        "pumba"
+    ],
+    "image_size": [
+        64,
+        64
+    ],
+    "validation_size": 0.15,
+    "batch_size": 64,
+    "num_workers": 2,
+    "normalization_mean": [
+        0.8117658495903015,
+        0.7804619669914246,
+        0.7443177700042725
+    ],
+    "normalization_std": [
+        0.2845592796802521,
+        0.2988460063934326,
+        0.33692267537117004
+    ],
+    "weighted_sampler": true,
+    "augmentation": [
+        "RandomHorizontalFlip",
+        "RandomRotation",
+        "ColorJitter"
+    ],
+    "resize_policy": "Aspect-ratio preserving resize with white padding"
+}
